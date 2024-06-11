@@ -1,14 +1,30 @@
 @media only screen and (min-width:200px) and (max-width:576px){
     body{
-        padding: 20px;
+        padding: 25px;
+        width: max-content;
     }
     .nav-section{
         margin-top: 20px;
-        padding: 0 20px;
-        gap: 40px;  
+        padding: 0;
+        gap: 30px;  
+    }
+    .logo-pic img{
+        width: 50px;
     }
     .nav-bar{
-        gap: 40px;   
+        gap: 20px; 
+    }
+    .nav-bar a{
+        font-size: 15px;
+    }
+    .search-term{
+        padding: 0;
+    }
+    .search ::placeholder{
+        padding-left: 40px;
+    }
+    .find{
+        top: 5px;
     }
     .banner-section{
         flex-direction: column;
@@ -22,6 +38,9 @@
     }
     .banner-head2{
         font-size: 1.5rem;
+    }
+    .banner-desc p{
+        width: 250px;
     }
     .order-box{
         margin-top: 40px;
@@ -43,29 +62,92 @@
         flex-direction: column;
     }
     .snacks{
-        width: 200px;
+        width: 250px;
     }
     .info-desk{
-        padding: 18px 20px;
+        width: 300px;
+        text-align: center;
+        padding: 0;
         flex-direction: column;
-        gap: 15px;
-        width: 100vmax;
+        gap: 25px;
+        box-shadow: none;
     }
     .our-time{
-        align-items: center;
-        gap: 12px;
-        width: 100%;
+        gap: 15px;
         border: none;
+        align-items: center;
+        padding-left: 70px;
     }
     .place{
         gap: 12px;
-        width: 100%;
         border: none;
-    }
-    .itmes-selection{
-        width: 100vmax;
+        padding-left: 70px;
     }
     .menu-demo{
-        grid-template-columns: repeat(2, 1fr);
+        margin-top: 30px;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 30px;
+    }
+    .popular-items{
+        width: 280px;
+    }
+    .Products-btn{
+        text-align: start;
+    }
+    .products-highlight{
+        text-align: start;
+    }
+    .your-choice{
+        margin-top: 30px;
+        flex-direction: column;
+        width: fit-content;
+        gap: 30px;
+    }
+    .service-types{
+        align-items: center;
+        gap: 25px;
+        padding: 35px 10px;
+    }
+    .clients-review{
+        margin-top: 50px;
+        flex-direction: column;
+        gap: 30px;
+    }
+    .left-compli-part{
+        width: 250px;
+        padding: 40px 30px;
+    }
+    .right-food-pho {
+        width: 250px;
+        padding: 40px 30px;
+    }
+    .subscription{
+        flex-direction: column;
+        align-items: start;
+        width: fit-content;
+        padding: 40px 35px ;
+    }
+    .pick-items{
+        padding: 0;
+    }
+    .pick-items img{
+        width: 162px;
+    }
+    .cli-add {
+       width: 250px;
+       padding: 0;
+    }
+    footer{
+        flex-direction: column;
+        /* width: fit-content; */
+        gap: 40px;
+    }
+    .more-info{
+        width: 250px;
+        gap: 15px;
+    }
+    .details{
+        gap: 15px;
+        width: fit-content;
     }
 }
