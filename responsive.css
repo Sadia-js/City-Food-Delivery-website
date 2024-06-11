@@ -1,0 +1,45 @@
+@media only screen and (min-width:200px) and (max-width:576px){
+    body{
+        padding: 20px;
+    }
+    .nav-section{
+        width: 100vmax;
+        margin-top: 20px;
+        padding: 0 20px;
+        gap: 40px;  
+    }
+    .nav-bar{
+        gap: 40px;   
+    }
+    .banner-section{
+        flex-direction: column;
+        width: 100vmax;
+    }
+    .banner-desc{
+        margin-top: 30px;
+        text-align: center;
+    }
+    .info-desk{
+        width: 100vmax;
+        padding: 18px 20px;
+        flex-direction: column;
+        gap: 15px;
+    }
+    .our-time{
+        align-items: center;
+        gap: 12px;
+        width: 100%;
+        border: none;
+    }
+    .place{
+        gap: 12px;
+        width: 100%;
+        border: none;
+    }
+    .itmes-selection{
+        width: 100vmax;
+    }
+    .menu-demo{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
