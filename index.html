@@ -49,11 +49,11 @@
                     </div>
     
                     <div class="ban-title">
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto, ad excepturi ipsum quo asperiores accusamus recusandae laudantium. Odit eos atque totam impedit non rerum dolorem.</p>
+                        <p>Welcome to FastFoodExpress, your premier choice for quick and delicious food delivery in the city! Whether you're craving a juicy burger, crispy fries, or a fresh salad, our extensive menu has something for everyone. With just a few clicks, you can have your favorite meals delivered hot and fresh right to your doorstep. Our speedy service and quality guarantee ensure a satisfying experience every time. Order now and enjoy the convenience of fast food delivery at its finest.</p>
                     </div>
     
                     <div class="order-box">
-                        <button class="order-btn">Order Now</button>
+                        <button class="order-btn" type="submit">Order Now</button>
                         <button class="polygon-btn"><img src="./media/icons/Polygon 1.png" alt=""></button>
                         <p>Order Process</p>
                     </div>
@@ -146,7 +146,7 @@
                         </div>
                         <div class="cart">
                            <button>Add To Cart</button>
-                           <p>$25.50</p>
+                           <p>$20.50</p>
                         </div>
                     </div>
                 </div>
@@ -156,12 +156,12 @@
                     </div>
                     <div class="items-brief">
                         <div class="name-rate">
-                            <h2>Enchilade</h2>
+                            <h2>Square Pizza</h2>
                             <span><img src="./media/icons/Vector.png" alt="Vector"> 50</span>
                         </div>
                         <div class="cart">
                            <button>Add To Cart</button>
-                           <p>$25.50</p>
+                           <p>$10.50</p>
                         </div>
                     </div>
                 </div>
@@ -171,12 +171,12 @@
                     </div>
                     <div class="items-brief">
                         <div class="name-rate">
-                            <h2>Enchilade</h2>
+                            <h2>Mix-Vegetables</h2>
                             <span><img src="./media/icons/Vector.png" alt="Vector"> 50</span>
                         </div>
                         <div class="cart">
                            <button>Add To Cart</button>
-                           <p>$25.50</p>
+                           <p>$12.50</p>
                         </div>
                     </div>
                 </div>
@@ -186,12 +186,12 @@
                     </div>
                     <div class="items-brief">
                         <div class="name-rate">
-                            <h2>Enchilade</h2>
+                            <h2>Mushroom Pizza</h2>
                             <span><img src="./media/icons/Vector.png" alt="Vector"> 50</span>
                         </div>
                         <div class="cart">
                            <button>Add To Cart</button>
-                           <p>$25.50</p>
+                           <p>$17.20</p>
                         </div>
                     </div>
                 </div>
@@ -201,12 +201,12 @@
                     </div>
                     <div class="items-brief">
                         <div class="name-rate">
-                            <h2>Enchilade</h2>
+                            <h2>Deserts</h2>
                             <span><img src="./media/icons/Vector.png" alt="Vector"> 50</span>
                         </div>
                         <div class="cart">
                            <button>Add To Cart</button>
-                           <p>$25.50</p>
+                           <p>$8.50</p>
                         </div>
                     </div>
                 </div>
@@ -216,18 +216,110 @@
                     </div>
                     <div class="items-brief">
                         <div class="name-rate">
-                            <h2>Enchilade</h2>
+                            <h2>Salads</h2>
                             <span><img src="./media/icons/Vector.png" alt="Vector"> 50</span>
                         </div>
                         <div class="cart">
                            <button>Add To Cart</button>
-                           <p>$25.50</p>
+                           <p>$5.99</p>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="Products-btn">
-                <button type="submit">See More Products <span><i class="fa-solid fa-angles-right"></i></span></button>
+                <button type="submit" onclick="handleMoreProducts()" id="toggle-button">See More Products</button>
+                <div id="see-more">    
+                    <div class="popular-items">
+                            <div class="special-pic">
+                                <img src="./media/Beef.jpg" alt="Beef">
+                            </div>
+                            <div class="items-brief">
+                                <div class="name-rate">
+                                    <h2>Enchilade</h2>
+                                    <span><img src="./media/icons/Vector.png" alt="Vector"> 50</span>
+                                </div>
+                                <div class="cart">
+                                   <button>Add To Cart</button>
+                                   <p>$25.50</p>
+                                </div>
+                            </div>
+                    </div>
+                    <div class="popular-items">
+                            <div class="special-pic">
+                                <img src="./media/fish.jpg" alt="nutritional">
+                            </div>
+                            <div class="items-brief">
+                                <div class="name-rate">
+                                    <h2>Fish Grilled</h2>
+                                    <span><img src="./media/icons/Vector.png" alt="Vector"> 50</span>
+                                </div>
+                                <div class="cart">
+                                   <button>Add To Cart</button>
+                                   <p>$10.50</p>
+                                </div>
+                            </div>
+                    </div>
+                    <div class="popular-items">
+                            <div class="special-pic">
+                                <img src="./media/docha.jpeg" alt="docha">
+                            </div>
+                            <div class="items-brief">
+                                <div class="name-rate">
+                                    <h2>Docha</h2>
+                                    <span><img src="./media/icons/Vector.png" alt="Vector"> 50</span>
+                                </div>
+                                <div class="cart">
+                                   <button>Add To Cart</button>
+                                   <p>$5.50</p>
+                                </div>
+                            </div>
+                    </div>
+                    <div class="popular-items">
+                            <div class="special-pic">
+                                <img src="./media/recipe.jpg" alt="recipe">
+                            </div>
+                            <div class="items-brief">
+                                <div class="name-rate">
+                                    <h2>Chawmin</h2>
+                                    <span><img src="./media/icons/Vector.png" alt="Vector"> 50</span>
+                                </div>
+                                <div class="cart">
+                                   <button>Add To Cart</button>
+                                   <p>$15.50</p>
+                                </div>
+                            </div>
+                    </div>
+                    <div class="popular-items">
+                            <div class="special-pic">
+                                <img src="./media/sushi.jpeg" alt="sushi">
+                            </div>
+                            <div class="items-brief">
+                                <div class="name-rate">
+                                    <h2>Sushi</h2>
+                                    <span><img src="./media/icons/Vector.png" alt="Vector"> 50</span>
+                                </div>
+                                <div class="cart">
+                                   <button>Add To Cart</button>
+                                   <p>$20.00</p>
+                                </div>
+                            </div>
+                    </div>
+                    <div class="popular-items">
+                            <div class="special-pic">
+                                <img src="./media/trad-food.jpg" alt="traditional">
+                            </div>
+                            <div class="items-brief">
+                                <div class="name-rate">
+                                    <h2>Beef-Kebab</h2>
+                                    <span><img src="./media/icons/Vector.png" alt="Vector"> 50</span>
+                                </div>
+                                <div class="cart">
+                                   <button>Add To Cart</button>
+                                   <p>$25.50</p>
+                                </div>
+                            </div>
+                    </div> 
+                </div>
             </div>
         </section>
 
@@ -246,7 +338,7 @@
                         <h2>Qualityfull Food</h2>
                     </div>
                     <div class="quality-desc">
-                        <p>But I must explain to you how all this <br> mistaken idea of denouncing pleasur and <br> prasising pain was bron.</p>
+                        <p>Indulge in the finest culinary delights with our premium food delivery service. Our commitment to quality ensures every meal is crafted with the freshest ingredients and delivered to you at peak perfection. Taste the difference and elevate your dining experience with us. Order now for a gourmet journey right at your doorstep.</p>
                     </div>
                 </div>
                 <div class="service-types">
@@ -257,7 +349,7 @@
                         <h2>Healthy Food</h2>
                     </div>
                     <div class="quality-desc">
-                        <p>But I must explain to you how all this <br> mistaken idea of denouncing pleasur and <br> prasising pain was bron.</p>
+                        <p>Embrace a healthier lifestyle with our nutritious and delicious food delivery service. Each meal is thoughtfully prepared using fresh, wholesome ingredients to support your well-being. Enjoy the convenience of eating well without compromising on taste. Order now and savor the goodness in every bite!</p>
                     </div>
                 </div>
                 <div class="service-types">
@@ -268,7 +360,7 @@
                         <h2>Fast Delivery</h2>
                     </div>
                     <div class="quality-desc">
-                        <p>But I must explain to you how all this <br> mistaken idea of denouncing pleasur and <br> prasising pain was bron.</p>
+                        <p>Craving something delicious? Get your favorite meals delivered fast and fresh! Our lightning-quick delivery service ensures your food arrives hot and ready to enjoy. Order now and experience the speed and convenience of our top-notch delivery!</p>
                     </div>
                 </div>
             </div>
@@ -286,12 +378,12 @@
                             <img src="./media/client.png" alt="client" width="30px">
                         </div>
                         <div>
-                            <h3>Willians Jhone</h3>
-                            <p>CEO & Co-Founder</p>
+                            <h3>Williams Jhone</h3>
+                            <h6>CEO & Co-Founder</h6>
                         </div>
                     </div>
                     <div class="comments">
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. <br> Ea odit unde ratione fugiat maxime velit, explicabo <br> corporis provident quisquam earum sunt? Et quam velit laborum nostrum voluptatibus! Exercitationem, adipisci veritatis!</p>
+                        <p>We started with the Truffle Mushroom Arancini and the Lobster Bisque. The Arancini were perfectly crispy on the outside and creamy on the inside, with a subtle truffle flavor that was divine. The Lobster Bisque was rich and velvety, with generous chunks of lobster that added a delightful texture.</p>
                     </div>
 
                 </div>
@@ -312,15 +404,14 @@
                 <div>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus, dolores ut sapiente quisquam consectetur nemo velit optio perferendis error rem illum qui ducimus harum quia sed ad ea. Nobis voluptate fugiat iure rerum laudantium enim at possimus quos provident laborum.</p>
                 </div>
-                <div class="collection">
-                    <div>
-                        <input type="email" name="email-add" id="email" placeholder="Type your email">
-                    </div>
-                    <div>
-                        <input type="submit" value="subscribe" class="subscribe-btn">
-                    </div>
+                <div class="collection"> 
+                  <form id="form" onsubmit="handlingContact(event)">
+                    <input type="email" name="email-add" id="email" placeholder="Type your email">
+                    <input type="submit" value="subscribe" class="subscribe-btn">
+                 </form>
+                 <div id="success-container"></div>
                 </div>
-            </div>
+            </div>    
         </section>
     </main>
 
@@ -330,13 +421,13 @@
                 <img src="./media/icons/Untitled-1 1.png" alt="food-logo">
             </div>
             <div>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, illo id. Deleniti voluptatem vel nulla sequi laboriosam commodi perferendis delectus ex ducimus. Delectus porro labore blanditiis quis dolor dolore recusandae?</p>
+                <p>Hungry for convenience? Look no further! Our food delivery service brings your favorite meals right to your doorstep, piping hot and ready to devour. With a diverse menu and speedy delivery, satisfaction is just a click away. Don't wait, order now and treat yourself to a hassle-free dining experience!</p>
             </div>
             <div class="social-link">
-                <i class="fa-brands fa-facebook"></i>
-                <i class="fa-brands fa-twitter"></i>
-                <i class="fa-brands fa-linkedin-in"></i>
-                <i class="fa-brands fa-instagram"></i>
+                <a href="https://www.facebook.com"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.twitter.com"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://www.instagram.com"><i class="fa-brands fa-instagram"></i></a>
             </div>
         </div>
         <div class="details">
@@ -379,5 +470,7 @@
             </div>
         </div>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
