@@ -76,6 +76,9 @@ body{
 .banner-desc{
     margin-top: 80px;
 }
+.ban-headline, .ban-title{
+    margin-top: 80px;
+}
 .banner-desc p{
     width: 60%;
 }
@@ -137,6 +140,10 @@ font-size: 20px;
     display: flex;
     flex-direction: column;
     gap: 20px;
+}
+.various-snacks{
+    display: flex; 
+    gap: 20px; 
 }
 .snacks{
    border-radius: 30px;
