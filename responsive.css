@@ -33,9 +33,6 @@
         flex-direction: column;
         gap: 5px;
     }
-    .ban-headline, .ban-title{
-        margin-top: 35px;
-    }
     .banner-head1{
         font-size: 1.5rem;
     }
