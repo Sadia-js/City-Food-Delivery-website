@@ -32,7 +32,6 @@
     .banner-section{
         flex-direction: column;
         gap: 5px;
-        margin-top: 20px;
     }
     .ban-headline, .ban-title{
         margin-top: 35px;
