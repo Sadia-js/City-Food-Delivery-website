@@ -105,7 +105,10 @@
     .Products-btn{
         text-align: start;
     }
-    .products-highlight{
+    .products-highlight p{
+        text-align: center;
+    }
+    .products-highlight h1{
         text-align: start;
     }
     .your-choice{
