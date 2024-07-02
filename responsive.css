@@ -1,183 +1,140 @@
 @media only screen and (min-width:200px) and (max-width:576px){
     body{
-        padding: 20px;
-        width: max-content;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 20px 30px;
     }
     .nav-section{
-        margin-top: 20px;
-        padding: 0;
-        gap: 20px;  
-        width: 250px;
-    }
-    .logo-pic img{
-        width: 50px;
+        flex-direction: column;
+        text-align: center;
     }
     .nav-bar{
-        gap: 15px; 
+       justify-content: center;
     }
-    .nav-bar a{
-        font-size: 15px;
-
+    #nav-form{
+      display: flex;
+      justify-content: center;
     }
-    .search-term{
-        padding: 0;
-        height: 35px;
-    }
-    .search ::placeholder{
-        padding-left: 30px;
-    }
-    .find{
-        top: 8px;
-    }
-    .banner-section{
+    .banner-section{ 
+        /* width: 250px;        */
         flex-direction: column;
         gap: 5px;
+        text-align: center
     }
-    .banner-head1{
-        font-size: 1.5rem;
+    .left-banner{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
-    .banner-head2{
-        font-size: 1.5rem;
+    .types-deliv{
+        width: 180px;
+        display: flex;
+        justify-content: center;
     }
-    .banner-desc p{
-        width: 250px;
+    .ban-headline{
+        text-align: center;
+        font-size: 1.8rem;
     }
     .order-box{
         margin-top: 40px;
         flex-direction: column;
-        align-items: start;
-        gap: 20px;
+        align-items: center;
     }
-    .polygon-btn{
-        width: 40px;
-        height: 40px;
-        margin-left: 55px;
-        padding: 10px 14px;
-    }
-    .polygon-btn img{
-        width: 20px;
-        height: 20px;
+    .right-banner{
+        margin-top: 100px;
     }
     .various-snacks{
         flex-direction: column;
-    }
-    .snacks{
-        width: 250px;
+        align-items: center;
+        width: 320px;
+        gap: 2rem;
     }
     .info-desk{
-        border: 1px solid rgb(181, 176, 176);
-        width: 250px;
-        text-align: center;
         flex-direction: column;
-        gap: 25px;
-        padding: 0;
-    }
-    .info-desk:hover{
-        padding: 3px 0;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        text-align: center;
     }
     .our-time{
         gap: 15px;
         border: none;
-        align-items: center;
-        padding-left: 70px ;
-        padding-top: 5px;
-        padding-bottom: 5px;
     }
     .place{
         gap: 12px;
         border: none;
-        padding-left: 70px;
-        padding-top: 5px;
-        padding-bottom: 5px;
     }
     .menu-demo{
-        margin-top: 30px;
-        grid-template-columns: repeat(1, 1fr);
-        gap: 30px;
+        display: flex;
+        flex-direction: column;
     }
-    .popular-items{
-        width: 280px;
-    }
-    .Products-btn{
-        text-align: start;
-    }
-    .products-highlight{
-        text-align: start;
+    .service-area{
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
     }
     .your-choice{
-        margin-top: 30px;
         flex-direction: column;
-        width: fit-content;
-        gap: 30px;
+        justify-content:center;
     }
     .service-types{
         align-items: center;
         gap: 25px;
-        padding: 35px 10px;
-        width: 250px;
+        padding: 30px 15px;
+    }
+    .testimonials-sec{
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        text-align: center;
     }
     .clients-review{
-        margin-top: 50px;
         flex-direction: column;
-        gap: 30px;
+        align-items: center;
     }
     .left-compli-part{
         width: 250px;
-        padding: 40px 30px;
     }
-    .right-food-pho {
+    .right-food-pho{
         width: 250px;
-        padding: 40px 30px;
     }
     .subscription{
         flex-direction: column;
-        align-items: start;
-        width: fit-content;
-        padding: 40px 35px;
+        justify-content: center;
+        align-items: center;
+        padding: 35px 20px;
         border-radius: 25px;
-        margin-top: 120px;
     }
     .pick-items{
-        padding: 0;
+        padding: 15px;
     }
     .pick-items img{
-        width: 162px;
+        width: 100%;
     }
     .cli-add {
-       width: 250px;
+       width: 240px;
        padding: 0;
     }
-    #email{
-        padding: 20px 70px 20px 15px;
+    .collection{
+        justify-content: center;
     }
-    .subscribe-btn{
-        left: 153px;
+    #form{
+        padding: 6px;
+        margin: 0 50px;
     }
     footer{
+        width: 250px;
         flex-direction: column;
-        /* width: fit-content; */
+        justify-content: center;
         gap: 40px;
     }
-    .more-info{
-        width: 250px;
-        gap: 15px;
-    }
-    .social-link{
+    .more-info, .social-link, .details{
+        width: 240px;
         gap: 15px;
     }
     .social-link i{
-        font-size: 23px;
-    }
-    .details{
         gap: 15px;
-        width: fit-content;
-    }
-
-    /* for js */
-    #see-more{
-        display: none;
-        margin-top: 30px;
-        grid-template-columns: repeat(1, 1fr);
-        gap: 30px;
     }
 }

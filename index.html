@@ -18,17 +18,13 @@
                 <a href="#">Home</a>
                 <a href="#">Art</a>
             </div>
-            <div class="search-container">
+            <form id="nav-form">
                 <div class="search">
-                        <input type="text" class="search-term" placeholder="Search">
-                        <div class="find">
-                            <i class="fa-solid fa-magnifying-glass"></i>
-                        </div>
-                        <div class="pop-up">
-                            <i class="fa-solid fa-envelope-open-text"></i>
-                        </div>           
+                    <span class="magni-gls"><i class="fa-solid fa-magnifying-glass"></i></span>
+                    <input type="text" class="search-option" placeholder="Search">
+                    <span class="pop-up "><i class="fa-solid fa-envelope-open-text"></i> </span>          
                 </div>
-            </div>
+            </form>
         </section>
         <section class="banner-section">
             <section class="left-banner">
@@ -43,9 +39,7 @@
                 
                 <div class="banner-desc">
                     <div class="ban-headline">
-                        <h1 class="banner-head1">The Fastest</h1>
-                        <h1 class="banner-head2">Delivery </h1>
-                        <h1 class="banner-head1">In <span class="banner-head2">Your City</span></h1>
+                        <h1>The Fastest <span class="block font-decor">Delivery</span> in <span class="font-decor">your City</span></h1>
                     </div>
     
                     <div class="ban-title">
@@ -129,7 +123,7 @@
             </div> 
         </section>
 
-        <section class="itmes-selection">
+        <section class="items-selection">
             <div class="products-highlight">
                 <p>Products</p>
                 <h1>Most Popular Items</h1>
@@ -227,8 +221,8 @@
                 </div>
             </div>
             <div class="Products-btn">
-                <button type="submit" onclick="handleMoreProducts()" id="toggle-button">See More Products</button>
-                <div id="see-more">    
+                <button type="submit" id="toggle-button">See More Products</button>
+                <div class="see-more hide">    
                     <div class="popular-items">
                             <div class="special-pic">
                                 <img src="./media/Beef.jpg" alt="Beef">
@@ -408,7 +402,7 @@
                   <form id="form" onsubmit="handlingContact(event)">
                     <input type="email" name="email-add" id="email" placeholder="Type your email" required>
                     <input type="submit" value="subscribe" class="subscribe-btn">
-                 </form>
+                  </form>
                  <div id="success-container"></div>
                 </div>
             </div>    
@@ -461,12 +455,8 @@
                 <p>+88 018 0000 0000</p>
             </div>
             <div class="your-loct">
-                <div>
-                    <input type="email" name="email-add" id="email-id" placeholder="Enter your email">
-                </div>
-                <div class="right-ang">
-                    <i class="fa-solid fa-angle-right"></i>
-                </div>
+                <input type="email" name="email-add" id="email-id" placeholder="Enter your email">
+                <span class="right-ang"><i class="fa-solid fa-angle-right"></i></span>
             </div>
         </div>
     </footer>

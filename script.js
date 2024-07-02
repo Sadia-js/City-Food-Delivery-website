@@ -17,22 +17,42 @@ function handlingContact(event){
     successContainer.appendChild(emailParagraph);
 }
 
-let seeMore = document.getElementById('see-more');
-let button = document.getElementById('toggle-button');
+let seeMore = document.querySelector('.see-more');
+let toogleBtn = document.querySelector('#toggle-button');
 
-let display = 0;
-function handleMoreProducts(){
-    if(display == 1){
-        seeMore.style.display = 'grid';
-        display = 0;
-        button.textContent = 'See Less';
+let display = true; //hide
+
+toogleBtn.addEventListener('click', () =>{
+    if(display){
+        display = false;
+        seeMore.classList.remove('hide');
+        toogleBtn.innerText = 'See Less';
     }
     else{
-        seeMore.style.display = 'none';
-        display = 1;
-        button.textContent = 'See More Products';
+        display = true; //hide
+        seeMore.classList.add('hide');
+        toogleBtn.innerText = 'See More Products';
     }
-}
+});
+
+// let modebtn = document.querySelector('#mode');
+// let body =  document.querySelector('body');
+// let currMode = 'light'; //dark
+
+// modebtn.addEventListener('click', ()=>{
+//     if(currMode === 'light'){
+//         currMode = 'dark';
+//         body.classList.add('dark');
+//         body.classList.remove('light');
+      
+//     }
+// else{
+//     currMode = 'light';
+//     body.classList.add('light');
+//     body.classList.remove('dark');
+// }
+// console.log(currMode);
+// });
 
 
 
